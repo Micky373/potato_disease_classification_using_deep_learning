@@ -4,7 +4,6 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 from io import BytesIO
-import cv2
 
 
 app = FastAPI()
@@ -36,7 +35,7 @@ async def predict(
     
 @app.get('/ping')
 async def ping():
-    return "Hey Micky how you doing!!!"
+    return "Hey Micky how are you doing!!!"
 
 if __name__ == "__main__":
     uvicorn.run('main:app',host='localhost',port=8000,reload=True)
