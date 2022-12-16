@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	font-family: Quintessential, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: Quintessential, sans-serif;
+}
+
+.MuiDropzoneArea-root {
+	background-color: transparent !important;
+}
+.MuiDropzoneArea-text, .MuiDropzoneArea-icon {
+  color: white !important;
+}

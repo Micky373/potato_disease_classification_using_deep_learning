@@ -1,63 +1,53 @@
-# Project Name
+# Potato Disease Classification project
 
-> One paragraph statement about the project.
+> In this project I trained a CNN model and predicted three types of potato leaf. Either the potato may be healthy or has an early blight disease or late blight disase. The model has good accuracy on these 3 classes. But it is accepting only images of size (256,256) if we pass images other than that shape it won't work. As a future work I have planned to insert resizing function. I used FastApi as a back end implementation to call the model and predict the disease.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images_and_gifs/app_screenshot.png)
 
-Additional description about the project and its features.
+
+<img  src="./images_and_gifs/demo.gif"> 
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Python, HTML, CSS, JavaScript, jQuery
+- FastApi
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+> git clone `https://github.com/Micky373/potato_disease_classification_using_deep_learning.git`
 
+> cd potato_disease_classification_using_deep_learning
 
-To get a local copy up and running follow these simple example steps.
+> pip install -r requirements.txt
 
-### Prerequisites
+> cd api
 
-### Setup
+> python main.py
 
-### Install
+> Then cd .. to go to the frontend foler
 
-### Usage
+> Here run `npm install --from-lock-json` and when it finshes `npm audit fix`
 
-### Run tests
+> After the installation completed run `npm run start`
 
-### Deployment
+> Then drag and drop any images of potato leaf which is a size of (256,256)
 
+> Then the result will be shown shortly
 
+> The EDA and model training is contained in the notebooks folder the notebook is `EDA_model_training.ipynb`
 
-## Authors
+## Author
 
-👤 **Author1**
+- GitHub: [@GitHub](https://github.com/Micky373)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/michaeltamirie/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Micky373/potato_disease_classification_using_deep_learning/issues).
 
 ## Show your support
 
@@ -65,9 +55,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/)
+- The UI implementation and code flow done with the help of [this play list](https://youtube.com/playlist?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M)
 
 ## 📝 License
 
