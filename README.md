@@ -35,7 +35,7 @@
 
 > Then the result will be shown shortly
 
-> The EDA and model training is contained in the notebooks folder the notebook is `EDA_model_training.ipynb`
+> The EDA and model training is contained in the notebooks folder the notebook is `EDA_model_training_and_saving.ipynb`
 
 ## Author
 
